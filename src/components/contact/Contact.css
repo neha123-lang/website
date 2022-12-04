@@ -1,0 +1,78 @@
+.contact{
+    /* background-color: azure; */
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact .middle img{
+width:50%;
+height: 60%;;
+}
+.contact .middle{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: rows;
+    
+}
+.input-field{
+    display:flex;
+    flex-direction: column;
+    
+}
+.input-field input,textarea
+{
+    margin-top :30px;
+    padding:10px;
+    border-radius: 10px;;
+    background-color: rgba(152, 167, 231, 0.274);
+    border: none;
+}
+.rightSide button{
+    margin-top: 20px;
+    padding:10px;
+    float:right;
+    background-image: linear-gradient(45deg , #5651e5 0%, #709dff 100%);
+    border-radius: 10px;
+    border: none;
+    color:White;
+}
+.name input{
+    margin-right:20px;
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and  (max-width:940px){
+   
+    .middle{
+        display: flex;
+        flex-direction: column;
+    }
+    .input-field{
+        align-items: center;
+        justify-content: center;
+    }
+    .input-field input,textarea{
+        margin-top :10px;
+        padding:6px;
+        border-radius: 10px;;
+        background-color: rgba(152, 167, 231, 0.274);
+        border: none;
+        width:80%;
+    }
+    .input-field .name{
+        display: flex;
+        flex-direction: row;
+    }
+    .contact{
+        overflow-x: hidden;
+    }
+
+}
