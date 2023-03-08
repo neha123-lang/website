@@ -2,7 +2,7 @@
   "name": "first-crud",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://neha123-lang.github.io/Manu-website",
+  "homepage": "https://neha123-lang.github.io/manufacturing-website",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.0.1",

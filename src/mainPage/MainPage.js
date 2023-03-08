@@ -19,6 +19,7 @@ function MainPage() {
       <Best />
       <Featured />
       <Footer/>
+      <p>bfjsvk</p>
     </>
   );
 }
